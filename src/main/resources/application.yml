@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: localhost
+    homePageUrl: https://${eureka.instance.hostname}/
+    statusPageUrlPath: https://${eureka.instance.hostname}/info
+    healthCheckUrlPath: https://${eureka.instance.hostname}/health
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

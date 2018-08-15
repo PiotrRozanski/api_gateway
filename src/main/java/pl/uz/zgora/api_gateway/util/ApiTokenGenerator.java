@@ -1,4 +1,4 @@
-package pl.uz.zgora.api_gateway;
+package pl.uz.zgora.api_gateway.util;
 
 import java.util.UUID;
 
